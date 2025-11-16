@@ -228,11 +228,11 @@
 }
 
 .img6 {
-	filter: hue-rotate(236deg);
+	filter: hue-rotate(270deg);
 }
 
 .img7 {
-	filter: brightness(3);
+	filter: none;
 }
 
 .img8 {
