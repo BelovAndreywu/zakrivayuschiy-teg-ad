@@ -224,7 +224,7 @@
 }
 
 .img7 {
-	filter: none;
+	filter:  brightness(65%) contrast(185%) hue-rotate(90deg);
 }
 
 .img8 {
