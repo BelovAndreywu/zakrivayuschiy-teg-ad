@@ -68,8 +68,6 @@
 	opacity: 0;
 }
 
-/* :hover */
-
 .like-icon:hover .core {
 	fill: var(--contour-color);
 	transition-delay: 0s;
@@ -80,8 +78,6 @@
 	transition-delay: 0.05s;
 }
 
-/* :active */
-
 .like-icon:active .core {
 	fill: var(--sparks-color);
 	transition-delay: 0s;
@@ -91,7 +87,6 @@
 	fill: var(--sparks-color);
 	transition-delay: 0.05s;
 }
-
 
 .like-icon.is-liked .heart {
 	transform-origin: center;
@@ -116,7 +111,6 @@
 .like-icon.is-liked .sparks {
 	animation: sparks 0.3s 0.3s ease-in;
 }
-
 
 .page {
 	min-inline-size: 320px;
@@ -199,8 +193,6 @@
 	}
 }
 
-
-
 .card__image {
 	object-fit: cover;
 	object-position: center;
@@ -232,7 +224,7 @@
 }
 
 .img7 {
-	filter: hue-rotate(120deg) saturate(200%) contrast(140%) brightness(60%);
+	filter: none;
 }
 
 .img8 {
