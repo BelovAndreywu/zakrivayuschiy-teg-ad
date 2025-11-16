@@ -232,7 +232,7 @@
 }
 
 .img7 {
-	filter: none;
+	filter: hue-rotate(120deg) saturate(200%) contrast(140%) brightness(60%);
 }
 
 .img8 {
