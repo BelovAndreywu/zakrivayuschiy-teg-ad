@@ -190,6 +190,16 @@
 	 mix-blend-mode: hard-light;
 }
 
+@supports (text-stroke: 1px var(--bg-color)) or
+	(-webkit-text-stroke: 1px var(--bg-color)) {
+	.card__image-label {
+		text-shadow: none;
+		-webkit-text-stroke: 1px var(--bg-color);
+		text-stroke: 1px var(--bg-color);
+	}
+}
+
+
 
 .card__image {
 	object-fit: cover;
@@ -209,7 +219,7 @@
 	filter: blur(3px);
 }
 
-.imh4{
+.img4 {
 	filter: invert(1);
 }
 
@@ -217,7 +227,7 @@
 	filter: grayscale(1);
 }
 
-.img6{
+.img6 {
 	filter: hue-rotate(236deg);
 }
 
