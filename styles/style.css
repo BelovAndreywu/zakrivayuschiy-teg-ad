@@ -50,9 +50,9 @@
 .card__title {
 	padding: 5px 10px;
 	border: 1px solid black;
-	font-variation-settings: 'wght' 700;
-	font-size: var(--text-size);
 	text-wrap: balance;
+	font-size: var(--text-size);
+	font-variation-settings: 'wght' 700;
 }
 
 .card__contain {
@@ -201,33 +201,32 @@
 }
 
 .like-icon.is-liked .heart {
-	transform-origin: center;
 	animation: scale 0.3s 0.1s ease-in;
+	transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
-	animation: sparks 0.3s 0.3s ease-in;
+	animation: sparks 0.4s 0.3s ease-in;
 }
 
 .like-icon.is-liked .core {
-	fill: var(--sparks-color);
 	transition-delay: 0s;
+	fill: var(--sparks-color);
 }
 
 .like-icon.is-liked .contour {
 	fill: var(--sparks-color);
-	transition-delay: 0.06s;
+	transition-delay: 0.05s;
 }
 
 .like-icon.is-liked .main-body {
-	fill: var(--sparks-color);
 	transition-delay: 0.05s;
 }
 
 .card__like-button {
 	padding: 11px 35px;
-	font-family: var(--accent-font);
 	font-size: 14px;
+	font-family: var(--accent-font);
 }
 
 .button {
@@ -235,10 +234,10 @@
 	border: 2px solid black;
 	outline: none;
 	overflow: hidden;
-	transition: box-shadow 0.3s ease;
 	position: relative;
 	cursor: pointer;
 	z-index: 2;
+	transition: box-shadow 0.3s ease;
 }
 
 .button span {
